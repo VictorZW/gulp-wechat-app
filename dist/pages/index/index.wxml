@@ -1,0 +1,11 @@
+<view>
+    <view class="title">
+        <span>应用中心</span>
+    </view>
+    <view class="icon-area">
+        <div class="icon-content" wx:for="{{ iconList }}" wx:key="item">
+            <image class="icon-img" src="{{ item.iconUrl }}"></image>
+            <view class="icon-text">{{ item.iconText }}</view>
+        </div>
+    </view>
+</view>

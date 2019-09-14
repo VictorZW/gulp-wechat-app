@@ -1,0 +1,30 @@
+@import "../../assets/scss/support";
+
+.title {
+  font-size: 14px;
+  color: #000000;
+  padding: 10px 12px;
+  border-bottom: 1px solid #DCE1EB;
+}
+
+.icon-area {
+  display: flex;
+  padding: 12px 0;
+  .icon-content {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .icon-img {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 7px;
+    }
+    .icon-text {
+      font-size: 12px;
+      color: #666666;
+      text-align: center;
+    }
+  }
+}

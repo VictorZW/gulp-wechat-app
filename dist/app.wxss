@@ -1,0 +1,7 @@
+.u-mt-smaller {
+  margin-top: 20rpx;
+}
+
+.u-mt-small {
+  margin-top: 30rpx;
+}
